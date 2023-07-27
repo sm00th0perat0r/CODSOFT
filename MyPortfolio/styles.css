@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lugrasimo&family=Poppins:wght@400;500&family=Russo+One&family=Victor+Mono:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;;
+    box-sizing: border-box;
+ }
+ body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,black,gray);
+ }
+.calculator{
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 17px;
+    background: transparent;
+    box-shadow: 0px 3px 40px rgba(113,115, 119, 0.5);
+}
+input{
+    width: 320px;
+    border: none;
+    padding: 20px;
+    text-align: right;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(86,85, 84, 0.1);
+    font-size: 40px;
+    cursor: pointer;
+}
+input::placeholder{
+    color: white;
+}
+button{
+    width: 65px;
+    height: 65px;
+    margin: 12px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5);
+}
+.ebtn{
+    background-color: orange;
+}
+.opbtn{
+    color:yellow;
+    font-size: 1.5rem;
+}
+.instructions{
+    /* display: flex; */
+    /* align-items: top; */
+    margin-bottom: 30rem;
+    margin-right: 7rem;
+    color: white;
+}
